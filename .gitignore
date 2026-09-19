@@ -1,0 +1,20 @@
+# Binaries
+*.exe
+*.exe~
+main
+server
+
+# Environment variables
+.env
+*.env
+
+# Test artifacts & confidential documents
+*.pdf
+*.docx
+*.doc
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

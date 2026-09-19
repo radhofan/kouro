@@ -1,6 +1,6 @@
-# BookCabin Flight Search & Aggregation
+# Kouro - Flight Search & Aggregation
 
-Go implementation of the BookCabin take-home test. Aggregates flights from four
+Go flight search and aggregation engine. Aggregates flights from four
 mock airline providers, normalizes heterogeneous response shapes into a single
 schema, and exposes the result over HTTP.
 
@@ -31,7 +31,7 @@ airline mock: Garuda Indonesia      http://127.0.0.1:54321
 airline mock: Lion Air              http://127.0.0.1:54322
 airline mock: Batik Air             http://127.0.0.1:54323
 airline mock: AirAsia               http://127.0.0.1:54324
-bookcabin listening on :8080
+kouro listening on :8080
 ```
 
 The main API is always on `:8080`. Airline servers pick free ports automatically
